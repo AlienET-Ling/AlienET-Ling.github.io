@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<title>ZHUHAI IMPEX Document Database</title>
+<link rel="stylesheet" href="homepage.css">
+<style>
+    body {
+        background-color: rgb(187, 255, 198);
+    }
+
+    h1 {
+        text-align: center;
+        margin: 30px;
+        font-size: 45px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    select {
+        width: 179px;
+        height: 24px;
+    }
+
+    label {
+        padding: 15px;
+
+    }
+
+    option {
+        font-size: 15px;
+    }
+
+    input {
+        width: 171px;
+        height: 16px;
+    }
+
+    fieldset#searchfield {
+        border: 1px solid;
+        width: 80%;
+        margin: 30px;
+        margin: auto;
+        justify-items: center;
+    }
+
+    input#submit1 {
+        width: 80px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    fieldset#filefield {
+        border: none;
+        width: 90%;
+        margin: left;
+        justify-items: center;
+    }
+
+    #filelist {
+        text-align: left;
+        justify-items: left;
+    }
+
+</style>
+<div class="pagebackground">
+
+    <head>
+        <h1>Customs Regulation Database</h1>
+    </head>
+
+    <body>
+        <form>
+            <fieldset id="searchfield">
+                <table>
+                    <tr>
+                        <th><label for="maintitle">标题：</label>
+                            <input id="maintitle">
+                        </th>
+                        <th><label for="author">发文机关：</label>
+                            <input id="author">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for="number">文号：</label>
+                            <input id="number">
+                        </th>
+                        <th><label for="filetype">法规类型：</label>
+                            <select name="filetype">
+                                <option selected>请选择</option>
+                                <option>法律</option>
+                                <option>行政法规</option>
+                            </select>
+                    </tr>
+                    <tr>
+                        <th><label for="availability">效力：</label>
+                            <select>
+                                <option selected>请选择</option>
+                                <option>有效</option>
+                                <option>无效</option>
+                                <option>部分修改</option>
+                            </select>
+                        <th><label for="contenttype">内容类别：</label>
+                            <select>
+                                <option selected>请选择</option>
+                                <option>综合类</option>
+                                <option>加工贸易保税监管类</option>
+                                <option>进出口货物监管类</option>
+                            </select>
+                    </tr>
+
+                </table>
+                <br>
+                <div>
+                    <input id="submit1" type="submit" value="查询">
+                </div>
+            </fieldset>
+
+        </form>
+        <br>
+        <br>
+        <fieldset id="filefield">
+            <div>
+                <list id="filelist">
+                    <ul><b>文件列表</b>
+                        <li><a href="C:/YunKu_Temp/YunKu_Open/396940955b1c1dd84d59fbd394c93b1867359ea0/File1.html"
+                                target="_blank">海关总署公告2024年第196号（关于废止和宣布失效部分规范性文件（一）的公告）</a></li>
+                        <li><a href="C:/YunKu_Temp/YunKu_Open/5bcddb58d9c3a51c6516bafc90684765a1857438/File2.html"
+                                target="_blank">海关总署公告2025年第2号（关于废止和宣布失效部分规范性文件（二）的公告）</a></li>
+                        <li><a href="C:/YunKu_Temp/YunKu_Open/f0dadfef117d75f7b6010c0b58af79c9c6f4eb5d/File3.html"
+                                target="_blank">中华人民共和国海关进出境行李物品监管办法（海关总署令第276号）</a></li>
+                        <li><a href="C:/YunKu_Temp/YunKu_Open/4289a125f602bc1904ee77aa378c4860cb28e61b/File4.html"
+                                target="_blank">海关总署公告2025年第19号（关于海关特殊监管区域卡口管理相关事项的公告）</a></li>
+                        <li><a href="C:/YunKu_Temp/YunKu_Open/48354f3cdcdda36bbae4147f5e6b6815cb9e863d/File5.html"
+                                target="_blank">海关总署公告2025年第20号（关于实施中国-布隆迪海关“经认证的经营者”（AEO）互认的公告）</a></li>
+                    </ul>
+                </list>
+            </div>
+        </fieldset>
+
+    </body>
+
+    <footer>
+
+    </footer>
+</div>
+
+
+
+
+
+
+
+
+</html>
